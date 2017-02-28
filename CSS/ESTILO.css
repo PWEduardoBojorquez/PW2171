@@ -1,0 +1,30 @@
+/*HTML= estructura + Contenido
+HTML + Diseño=CSS3
+CSS= Hojas de estilo en cascada
+   = Maquetado= maquetacion
+
+Orden en van los elementos:
+   1.- Pseudo-elementos
+   		Contine atributos
+   2.- Etiquetas <etiquetas>
+		Contine atributos
+   3.- Identificadores
+		Contine atributos
+   4.- Clases
+		Contine atributos
+   5.- Elemento de responsive  design (Diseño adaptativo)
+		Contine atributos
+
+   Todos ellos en orden alfabetico
+   Tanto elementos como atributos*/
+
+body {
+	background: rgba(255,0,0,0.5);
+	border: 1px solid red; /*Poner borde*/
+	color: white;/*Color Letra*/
+	/*Atributo: Valor;*/
+	font-size: 16px; /*Tamaño de la fuente*/
+	max-width: 1024px; /*Ancho de pantalla predeterminado 1024*/
+
+
+}
