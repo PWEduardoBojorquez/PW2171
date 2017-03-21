@@ -1,0 +1,52 @@
+body {
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*Centramos el Body*/
+	max-width: 1078px; /*Empresa-Cliente*/
+	min-width: 1078px; /*Devido a las imagenes flotantes debe de aber un minimo */
+
+
+
+}
+header input {
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative;
+	/*static,absolute,fixed */
+}
+header nav {
+	margin-left: 220px;
+    /*text-align: center;*/
+}
+header nav ul li{
+	border-bottom: 1px solid gray; /* solid es para linea y dashed para linea punteada */
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	/*text-decoration: underline;*/ /*subrayar la palabra */
+}
+#Seccion01{
+	height: 318px;
+}
+#Seccion01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#granthams { /*logo de la empresa */
+margin-top: 20px;
+margin-left: 25px;
+}
+#paint {
+	float: right;
+
+}
+#Secc01art01{
+	width: 50%;
+}
+#Secc01art01 img{
+	width: 100%;
+}
+#Secc01art02{
+	width: 20%;
+}
