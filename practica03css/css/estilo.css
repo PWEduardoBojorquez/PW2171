@@ -1,0 +1,19 @@
+body {
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*Centramos el Body*/
+	max-width: 1078px; /*Empresa-Cliente*/
+	min-width: 1078px; /*Devido a las imagenes flotantes debe de aber un minimo */
+}
+
+header nav ul li {
+	border-bottom: 1px solid gray; /* solid es para linea y dashed para linea punteada */
+	color: gray;
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 15px;
+}
+#img1,#img2,#img3{
+	margin-right: 10px;
+	margin-top: -15px;
+	float: right;
+}
