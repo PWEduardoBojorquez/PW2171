@@ -4,10 +4,15 @@ body {
 	max-width: 1078px; /*Empresa-Cliente*/
 	min-width: 1078px; /*Devido a las imagenes flotantes debe de aber un minimo */
 }
+header nav{
+	background: #FF530D;
+	color: white;
+	margin: 0 auto;
+	border-radius: 7px;
+}
 
 header nav ul li {
 	border-bottom: 1px solid gray; /* solid es para linea y dashed para linea punteada */
-	color: gray;
 	display: inline-block;
 	font-size: 1em;
 	margin-right: 15px;
@@ -17,3 +22,29 @@ header nav ul li {
 	margin-top: -15px;
 	float: right;
 }
+#Feature
+{
+	margin-left: 25px;
+	height: 310px;
+	width: 640px;
+}
+#Seccion01 article
+{
+	display: inline-block;
+	text-align: center;
+}
+#Secc01art02 
+{
+display: inline-block;
+border: 1px solid black;
+width: 315px;
+margin top: -20px;
+
+}
+.Titulos{
+	background: #FF530D;
+	color: white;
+	border-radius: 7px;
+	padding:  10px 117.5px 10px 117.5px;
+}
+
