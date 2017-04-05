@@ -1,0 +1,91 @@
+body{
+	background: white;
+	margin: 0 auto;
+	font-size: 16px;
+	width: 1024px;
+
+}
+header{
+	background: #275E90;
+}
+section{
+	display: inline-block;
+	vertical-align: top;
+}
+header nav ul li{
+	display: inline-block;
+	background: #DADEE2;
+}
+header nav img{
+	width: 100px;
+}
+header nav{
+	background: #EEEFF0;
+}
+header nav ul{
+	text-align: right;
+	list-style: none;
+}
+#logo{
+	right: -400px;
+	float: center;
+	position: relative;
+	width: 200px;
+}
+#barra01{
+	width: 200px;
+}
+#barra02{
+	width: 200px;
+}
+#barra03{
+	width: 200px;
+}
+#barra04{
+	width: 200px;
+}
+#seccion01{
+	border: 1px solid #DADEE2;
+	width: 22.1%;
+	margin-top: -20px;
+}
+#seccion02{
+	border: solid white;
+	width: 76.7%;
+	margin-top: -20px;
+	background-color: white;
+
+}
+#art01sec01{
+	background-color: #194E86;
+}
+#art01sec02 article{
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+
+}
+#art03sec02{
+	display: inline-block;
+}
+#art02sec02{
+	border: white;
+}
+#cubo1{
+	background: #03AC4A;
+}
+#cubo2{
+	background: #2C71B2;
+	padding-top: 8.5px;
+}
+#cubo3{
+	background: purple;
+}
+#cubo4{
+	background: red;
+}
+#progress{
+width: 227px;
+}
+
+
