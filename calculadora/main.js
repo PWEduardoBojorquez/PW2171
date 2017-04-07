@@ -9,8 +9,8 @@ let PantallaPrincipal;
 
 function muestraPantallaPrincipal(){
 PantallaPrincipal= new BrowserWindow({
-	width: 1024, 
-	heigth:768
+	width: 360,
+	heigth:600
 })
 PantallaPrincipal.on('closed', function(){
 	PantallaPrincipal=null
