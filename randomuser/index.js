@@ -17,6 +17,12 @@ $.ajax({
   success: function(data) {
   	$("#txtNombre").html(data.results[0].name.first+" "+data.results[0].name.Last)
   	$("#imgFoto").attr("src",data.results[0].picture.large)
+  	$("#location").html(data.results[0]location.street+" "+
+  						data.results[0]location.city+" "+
+  						data.results[0]location.state+" "+
+  						data.results[0]location.postcode)
+  	$("#email").html(data.results[0].email)
+  	$("#login")
   },
   error(a,b,c){
   	alert("Sin internet o sin servidor")
